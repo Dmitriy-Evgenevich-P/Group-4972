@@ -1,7 +1,5 @@
 ﻿// int day = int.Parse(Console.ReadLine()??"0");
-
 // string[] dayOfweek = new string[7];
-
 // dayOfweek[0]="Понедельник";
 // dayOfweek[1]="Вторник";
 // dayOfweek[2]="Среда";
@@ -9,7 +7,6 @@
 // dayOfweek[4]="Пятница";
 // dayOfweek[5]="Суббота";
 // dayOfweek[6]="Воскресенье";
-
 // Console.WriteLine(dayOfweek[day-1]);
 
 
@@ -49,7 +46,7 @@
 
 //    case 7: Console.WriteLine ("Вс");
 //    break;
-// }
+// Не хватает дополнения, если будет 8.
 
 
 
@@ -66,6 +63,7 @@
 //     case "7": Console.WriteLine("Воскресенье"); break;
 //     default: Console.WriteLine("Неверные данные"); break;
 // }
+
 
 
 Console.WriteLine("Enter day number");

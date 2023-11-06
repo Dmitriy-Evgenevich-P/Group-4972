@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Введите число 1:");
+﻿// Программа какое число меньше, а какое больше.
+
+Console.WriteLine("Введите число 1:");
 int num1 = int.Parse(Console.ReadLine() ?? "0");
 
 Console.WriteLine("Введите число 2:");

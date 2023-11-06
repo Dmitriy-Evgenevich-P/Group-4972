@@ -9,14 +9,15 @@
 if(inputNum!=null)
 {
 //    Парсим введенное число
-//    int num = int.Parse(inputNum);
+// int num = int.Parse(inputNum);
 //    Находим квадрат числа
-//    int res = num*num;
+// int res = num*num;
 //    Выводим данные в консоль
-//    Console.WriteLine(res);
+// Console.WriteLine(res);
 
-    Console.WriteLine("Квадрат числа: "+(int)Math.Pow(int.Parse(inputNum),2));
+Console.WriteLine("Квадрат числа: "+(int)Math.Pow(int.Parse(inputNum),2));
 }
+
 
 
 

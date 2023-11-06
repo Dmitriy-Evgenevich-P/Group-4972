@@ -1,4 +1,5 @@
-﻿
+﻿// Программа выдаёт большее из трёх чисел.
+
 Console.WriteLine("Введите число 1:");
 int num1 = int.Parse(Console.ReadLine() ?? "0");
 

@@ -4,16 +4,19 @@
 // Console.WriteLine("Введите число 2:");
 //  int num2 = int.Parse(Console.ReadLine() ?? "0");
 
-// Console.WriteLine(num1 == Math.Pow(num2, 2) ? "Да" : "Нет");
 
+// Console.WriteLine(num1 == Math.Pow(num2, 2) ? "Да" : "Нет");
 // //<условие>?<вариант1>:<вариант2>
+
+
 // if (num1 == Math.Pow(num2, 2))
-//  {     Console.WriteLine("Да");
+// {     
+// Console.WriteLine("Да");
 // }
 //  else
-//  {
-//      Console.WriteLine("Нет");
-//  }
+// {
+//  Console.WriteLine("Нет");
+// }
 
 
 // System.Console.WriteLine("Введите два числа");
@@ -30,12 +33,15 @@
 // }
 
 
+
 // Console.WriteLine("Enter first num");
 // int firstNum = int.Parse(Console.ReadLine());
 
 // Console.WriteLine("Enter second num");
 // int secondNum = int.Parse(Console.ReadLine());
 
-// if(firstNum == Math.Pow(secondNum, 2)){
-// 	Console.WriteLine("First number is a square of second number");
+// if(firstNum == Math.Pow(secondNum, 2))
+// {
+// Console.WriteLine("First number is a square of second number");
 // }
+// Не доработан, не выводит, что не квадрат второго.

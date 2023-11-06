@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Введите число :");
+﻿// Является ли число чётным.
+
+Console.WriteLine("Введите число :");
 int num = int.Parse(Console.ReadLine() ?? "0");
 
 if (num % 2 == 0)
